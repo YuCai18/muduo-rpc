@@ -24,7 +24,7 @@ autobuild.sh：一键编译脚本
 
 ## 手写的RPC部分
 
-![RPC通信原理图](.\img\RPC通信原理图.png)
+![RPC通信原理图](./img/RPC通信原理图.png)
 
  muduo-rpc框架主要包含以下两个部分的内容:
 
