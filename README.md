@@ -31,6 +31,8 @@ autobuild.sh：一键编译脚本
 黄色部分：设计rpc方法参数的打包和解析，也就是数据的序列化和反序列化，使用Protobuf。 
 
 绿色部分：网络部分，包括寻找rpc服务主机，发起rpc调用请求和响应rpc调用结果，使用muduo网络 库和zookeeper服务配置中心（专门做服务发现）。
+### protobuf底层函数解读
+![protobuf讲解三](./img/protobuf讲解三.png)
 
 ## 项目准备
 
